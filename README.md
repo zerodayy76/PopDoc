@@ -21,14 +21,6 @@ PopDock is a Firefox extension that lets you open websites in movable, resizable
 - The control dock always stays above every window
 - Per-window address bar, reload, and "open in a normal tab" buttons
 - Windows come back after a page reload or navigation in the same tab
-
-### Mobile
-- Long-press any link to open it in a pop-up
-- Drag the title bar to move; resize from any edge or corner
-- Close with the ✕ button
-- Tap a window in the back to bring it forward
-- Normal taps on links still work as usual
-
 ---
 
 ## How to use
@@ -56,13 +48,6 @@ PopDock is a Firefox extension that lets you open websites in movable, resizable
    - **✕ All**: close every window
    - Minimized windows appear as chips; click one to restore it.
 
-### Mobile
-1. **Long-press a link** (about half a second). Your phone gives a small vibration and the pop-up opens.
-2. **Drag the title bar** to move it.
-3. **Drag any edge or corner** to resize it (the bottom-right corner has a visible grip).
-4. Tap **✕** to close.
-5. Open several at once and tap one in the back to bring it to the front.
-
 ---
 
 ## Installation
@@ -73,11 +58,6 @@ PopDock is a Firefox extension that lets you open websites in movable, resizable
 3. Click **Load Temporary Add-on** and select `desktop/manifest.json`.
 
 Temporary add-ons are removed when Firefox restarts. To keep it permanently, sign the extension through [addons.mozilla.org](https://addons.mozilla.org) (the free "On your own" self-distribution option), or use Firefox Developer Edition / Nightly with `xpinstall.signatures.required` set to `false`.
-
-### Firefox for Android
-Regular Firefox for Android only installs extensions from the official add-on store, so:
-- **Option 1:** sign the extension for free via addons.mozilla.org (self-distribution), then in Firefox go to **Settings → About Firefox**, tap the logo 5 times to enable the debug menu, and choose **Install extension from file**.
-- **Option 2:** use Firefox Nightly and set `xpinstall.signatures.required` to `false` in `about:config`.
 
 ---
 
@@ -103,14 +83,3 @@ Regular Firefox for Android only installs extensions from the official add-on st
 PopDock collects no data and sends nothing anywhere. Pop-up window positions are kept in memory only and are cleared when you close the tab or restart Firefox.
 
 ---
-
-## Project structure
-
-```
-desktop/   Desktop Firefox extension
-mobile/    Firefox for Android extension
-```
-
-## License
-
-MIT. Add a `LICENSE` file to the repo.
