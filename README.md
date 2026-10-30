@@ -5,8 +5,6 @@
 PopDock is a Firefox extension that lets you open websites in movable, resizable windows that float over your current page. Keep a video, a chat, docs, and a search open side by side without juggling tabs. It comes in two versions:
 
 - **Desktop**: multiple windows with minimize, maximize, edge snapping, and tiling.
-- **Mobile (Firefox for Android)**: long-press a link to open a free-floating, resizable pop-up.
-
 ---
 
 ## Features
